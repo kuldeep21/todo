@@ -1,0 +1,11 @@
+.hcontainer{
+    display: flex;
+    height: 80px;
+    background-color: #321850;
+    color: #ffffff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+}

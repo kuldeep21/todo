@@ -1,15 +1,15 @@
 import React from 'react';
+import "./inputField.css";
 
-const InputField = () => {
+const InputField = ({value,handleChange}) => {
     //const { value, handleChange, handleKeyUp } = props;
 
     return (
         <input autoFocus
             type="text"
-            //className="form-control add-todo"
-            // value={value}
-            // onKeyUp={handleKeyUp}
-            // onChange={handleChange}
+            className="inputField"
+             value={value}
+            onChange={handleChange}
             placeholder="Add New Task"
         />
     );
