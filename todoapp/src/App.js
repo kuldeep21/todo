@@ -9,7 +9,7 @@ import React,{useState} from 'react';
 
 function App() {
   const [textFieldValue,setTextFieldValue] = useState("")
-  const [listContents,setListContents] =useState(["Laundry","movie"]);
+  const [listContents,setListContents] =useState(["Laundry"]);
   
   const handleAdd =()=>{
     setListContents([...listContents,textFieldValue]);
