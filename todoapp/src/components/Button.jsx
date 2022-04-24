@@ -1,13 +1,13 @@
 import React from "react";
 
-const Button = (props: any) => {
+const Button = ({buttonName,onclick}) => {
 
-    const {buttonName} = props;
 
     return(
         <input
         type="button"
         value={buttonName}
+        onClick={onclick}
         />
     );
 }
